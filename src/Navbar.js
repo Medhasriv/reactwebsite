@@ -1,4 +1,4 @@
-import { useImperativeHandle } from "react"
+// import { useImperativeHandle } from "react"
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 export default function Navbar(){
     
@@ -6,8 +6,8 @@ export default function Navbar(){
         <nav className="nav">
             <Link to="/" className="site-title">Medhasri.</Link>
             <ul>
-                <CustomLink to="/pricing">Pricing</CustomLink>
-                <CustomLink to="/about">About</CustomLink>
+            <CustomLink to="/about">About</CustomLink>
+            <CustomLink to="/Projects">Projects</CustomLink>
             </ul>
         </nav>
     )
